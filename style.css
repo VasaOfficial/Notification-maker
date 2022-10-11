@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Roboto:wght@400;700&family=Silkscreen&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(232, 71, 71);
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.btn {
+    border: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 10px;
+    background-color: white;
+    color: rgb(232, 71, 71);
+    width: 250px;
+    height: 80px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;   
+}
+
+.btn:active {
+   transform: scale(0.98);
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.massage {
+    color: rgb(68, 68, 246); 
+    background-color: white;
+    padding: 1rem 2rem;
+    margin: 0.5rem;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+#container {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    bottom: 10px;
+    right: 10px;
+}
